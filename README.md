@@ -26,7 +26,7 @@ I developed a Python script that listens for DNS queries on the local network. W
 ### 3. Cache Poisoning
 By providing multiple records in the "Additional" and "Authoritative" sections of the DNS packet, I demonstrated how an attacker can stay "persistent" in a victim's cache, redirecting future traffic without needing to sniff every subsequent packet.
 
-## Defensive Strategy (SOC Perspective)
+## Defensive Strategy
 To mitigate these types of attacks, security operations should prioritize:
 * **DNSSEC Deployment:** Using digital signatures to ensure DNS data is authentic and has not been tampered with.
 * **Monitoring:** Detecting multiple DNS responses for a single query or identifying "unsolicited" DNS replies on the network.
