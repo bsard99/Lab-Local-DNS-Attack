@@ -4,7 +4,7 @@
 You can view the full tchnical report here: [Local DNS Attack Lab (PDF)](./Lab-Local-DNS-Attack.pdf)
 
 ## Project Overview
-This project demonstrates the vulnerabilities inherent in the Domain Name System (DNS). Using a "Sniff-then-Spoof" approach, I successfully intercepted DNS queries and provided fraudulent responses to redirect traffic from legitimate sites (like Facebook) to an attacker-controlled IP address.
+This lab demonstrates the vulnerabilities inherent in the Domain Name System (DNS). Using a "Sniff-then-Spoof" approach, I successfully intercepted DNS queries and provided fraudulent responses to redirect traffic from legitimate sites (like Facebook) to an attacker-controlled IP address.
 
 ## Technical Skills Demonstrated
 * **Network Protocol Analysis:** Deep understanding of DNS Query/Response structure, including Question, Answer, and Additional sections.
